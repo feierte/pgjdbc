@@ -93,3 +93,4 @@ property("localReleasePlugins")?.ifBlank { "../vlsi-release-plugins" }?.let {
     println("Importing project '$it'")
     includeBuild(it)
 }
+include("pgjdbc-demo")
